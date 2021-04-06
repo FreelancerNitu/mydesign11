@@ -1,0 +1,807 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: regular;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: regular;
+    font-size: 14px;
+}
+
+.row {
+    width: 100%;
+}
+
+.row::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+[class*="col"] {
+    float: left;
+    padding: 15px;
+}
+
+[class*="col"] {
+    width: 100%;
+}
+body {
+    border: 10px solid black;
+}
+/* Common css end here */
+
+/* header area start here */
+
+.header-logo {
+    background: #eaaf47;
+    padding: 1% 5%;
+  }
+  .header-logo h3 {
+    font-size: 12px;
+    color: #fff;
+  }
+  .header-logo h3 span {
+    font-size: 35px;
+    background: #fff;
+    border-radius: 3px;
+  }
+
+/* Header area end here */
+
+ /* New's section start here */
+  .latest-news {
+    text-align: center;
+    margin: 20px;
+  }
+    .latest-news h1 {
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #eaaf47;
+        padding-bottom: 5px;
+    }
+    .latest-news p {
+      font-size: 10px;
+      font-weight: bold;
+    }
+    .latest-img {
+        text-align: center;
+        max-width: 100%;
+      
+      }
+      .latest-img img {
+        width: 100%;
+        height: auto;
+      }
+    /* New's section end here */
+    /* What new section start here */
+      .new-firsr h2 {
+        font-size: 19px;
+        text-transform: uppercase;
+        padding-bottom: 15px;
+    }
+      .new-firsr img {
+        max-width: 100%;
+        height: auto;
+    }
+  .new-last h2 {
+	font-size: 19px;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+  .new-last p {
+	font-size: 15px;
+	color: #555;
+}
+.new-last .btn {
+	margin: 20px 0;
+	background: #eaaf47;
+	border: navajowhite;
+	border-radius: 3px;
+	color: black;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+ /* What new section end here */
+/* dance section start here */
+.new-last1 h2 {
+  font-size: 21px;
+  text-transform: uppercase;
+}
+.new-last1 p {
+	margin: 12px 0;
+	font-size: 15px;
+	color: #777;
+}
+.new-last1 .btn {
+	margin: 20px 0;
+	background: #eaaf47;
+	border: navajowhite;
+	border-radius: 3px;
+	color: black;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .4s;
+	float: right;
+}
+.new-last1 .btn:hover{
+    transform: scale(1.2);
+}
+ /* Dance section end here */
+
+/* college section start here */
+#college {
+  padding: 1% 5%;
+}
+.new-last2 h2 {
+	font-size: 21px;
+	text-transform: uppercase;
+}
+.new-last2 p {
+	margin: 5px 0;
+	font-size: 15px;
+	color: #777;
+}
+.new-last2 .btn {
+	margin: 20px 0;
+	background: #eaaf47;
+	border: navajowhite;
+	border-radius: 3px;
+	color: black;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .4s;
+}
+.new-last2 .btn:hover{
+    transform: scale(1.2);
+}
+/* college section end here */
+
+/* follow section start here */
+.follow-us h2 {
+	font-size: 21px;
+}
+#follow {
+	padding: 1% 5%;
+	text-align: center;
+  background: #eaaf47
+}
+.follow-us a img {
+	width: 40px;
+	height: 40px;
+	background: red;
+	border-radius: 50%;
+	border: 3px solid black;
+	margin: 20px 0px;
+	cursor: pointer;
+	transition: .4s;
+}
+/* follow section end here */
+
+/* footer section start here */
+
+footer {
+  padding: 1% 5%;
+  background: gray;
+}
+.main-menu {
+  text-align: center;
+}
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.main-menu ul li {
+	margin: 17px;
+}
+.main-menu ul li a {
+  text-decoration: navajowhite;
+  color: black;
+  font-size: 16px;
+}
+
+/* Footer section end here */
+/* Small device (portrait tablets and large phones, 576px and up) */
+@media (min-width: 576px) {
+     /* New's section start here */
+
+     #last-news {
+        padding: 1% 5%;
+      }
+      .latest-news {
+        text-align: center;
+        margin: 20px;
+      }
+      .latest-news h1 {
+        font-size: 58px;
+        text-transform: uppercase;
+        color: #eaaf47;
+        padding-bottom: 5px;
+      }
+      .latest-news p {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .latest-img {
+        text-align: center;
+        max-width: 100%;
+      
+      }
+      .latest-img img {
+        width: 100%;
+        height: auto;
+      }
+     /* New's section end here */
+
+     /* What new section start here */
+     #what-new {
+        padding: 1% 5%;
+        overflow: hidden;
+      }
+      .new-firsr h2 {
+        font-size: 30px;
+        text-transform: uppercase;
+        padding-bottom: 15px;
+      }
+      .new-firsr img {
+        max-width: 100%;
+        height: auto;
+    }
+  .new-last {
+    padding-top: 377px;
+  }
+  .new-last h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+  .new-last p {
+    font-size: 26px;
+    color: #555;
+  }
+  .new-last .btn {
+    margin: 20px 0;
+    background: #eaaf47;
+    border: navajowhite;
+    border-radius: 3px;
+    color: black;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+ /* What new section end here */
+
+  
+    .col-sm-1 {
+        width: 8.33%;
+    }
+
+    .col-sm-2 {
+        width: 16.66%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+    }
+
+    .col-sm-5 {
+        width: 41.66%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-7 {
+        width: 58.33%;
+    }
+
+    .col-sm-8 {
+        width: 66.66%;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-10 {
+        width: 83.33%;
+    }
+
+    .col-sm-11 {
+        width: 91.66%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+/* Medium device (portrait tablets and large phones, 768px and up) */
+@media (min-width: 768px) {
+  /* header area start here */
+  #header {
+    background: #eaaf47;
+  }
+  /* header area end here */
+
+   /* what new section start here */
+    .new-firsr h2 {
+        font-size: 21px;
+        text-transform: uppercase;
+        padding-bottom: 15px;
+    }
+    .new-last {
+      padding-top: 155px;
+    }
+    .new-last h2 {
+      font-size: 18px;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+    .new-last p {
+        font-size: 17px;
+        color: #555;
+    }
+    /* what new section end here */
+
+    /* dance section start here */
+    .new-last1 {
+      padding-top: 25px;
+    }
+    .new-last1 h2 {
+      font-size: 21px;
+      text-transform: uppercase;
+      margin-top: 90px;
+    }
+    .new-last1 p {
+      margin: 12px 0;
+      font-size: 19px;
+      color: #777;
+    }
+    .new-last1 .btn {
+      margin: 20px 0;
+      background: #eaaf47;
+      border: navajowhite;
+      border-radius: 3px;
+      color: black;
+      padding: 10px 25px;
+      text-transform: uppercase;
+      font-weight: bold;
+      cursor: pointer;
+      transition: .4s;
+      float: right;
+    }
+    .new-last1 .btn:hover{
+        transform: scale(1.2);
+    }
+     /* Dance section end here */
+
+
+    /* dance section end here */
+
+    /* college section start here */
+    #college {
+      padding: 1% 5%;
+    }
+    .new-last2 {
+      padding-top: 33px;
+    }
+   
+    .new-last2 h2 {
+      font-size: 30px;
+      text-transform: uppercase;
+      margin-top: 90px;
+    }
+    .new-last2 p {
+      margin: 12px 0;
+      font-size: 15px;
+      color: #777;
+    }
+    .new-last2 .btn {
+      margin: 20px 0;
+      background: #eaaf47;
+      border: navajowhite;
+      border-radius: 3px;
+      color: black;
+      padding: 10px 25px;
+      text-transform: uppercase;
+      font-weight: bold;
+      cursor: pointer;
+      transition: .4s;
+    }
+    .new-last2 .btn:hover{
+        transform: scale(1.2);
+    }
+    /* college section end here */
+
+    /* follow section start here */
+#follow {
+	padding: 1% 5%;
+	text-align: center;
+  background: #eaaf47
+}
+.follow-us a img {
+	width: 40px;
+	height: 40px;
+	background: red;
+	border-radius: 50%;
+	border: 3px solid black;
+	margin: 20px 24px;
+	cursor: pointer;
+	transition: .4s;
+}
+.follow-us a img:hover{
+  transform: scale(1.2);
+}
+/* follow section end here */
+
+/* footer section start here */
+
+footer {
+  padding: 1% 5%;
+  background: gray;
+}
+.main-menu {
+  text-align: center;
+}
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.main-menu ul li {
+	display: inline-block;
+	margin: 0px 17px;
+}
+.main-menu ul li a {
+	text-decoration: navajowhite;
+	color: black;
+	font-size: 12px;
+}
+.main-menu ul li a:hover{
+  transform: scale(1.2);
+  text-decoration: underline;
+  color: tomato;
+}
+/* Footer section end here */
+    .col-md-1 {
+        width: 8.33%;
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-7 {
+        width: 58.33%;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-10 {
+        width: 83.33%;
+    }
+
+    .col-md-11 {
+        width: 91.66%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+
+/* Large device (portrait tablets and large phones, 992px and up) */
+@media (min-width: 992px) {
+     /* Header area start here */
+       #header {
+	       background: #eaaf47;
+     }
+     .header-logo {
+        background: #eaaf47;
+        padding: 1% 5%;
+      }
+      .header-logo h3 {
+        font-size: 12px;
+        color: #fff;
+      }
+      .header-logo h3 span {
+        font-size: 35px;
+        background: #fff;
+        border-radius: 3px;
+      }
+
+     /* Header area end here */
+
+
+     /* New's section start here */
+
+     #last-news {
+        padding: 1% 5%;
+      }
+      .latest-news {
+        text-align: center;
+        margin: 20px;
+      }
+      .latest-news h1 {
+        font-size: 58px;
+        text-transform: uppercase;
+        color: #eaaf47;
+        padding-bottom: 5px;
+      }
+    .latest-news p {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .latest-img {
+        text-align: center;
+        max-width: 100%;
+      
+      }
+      .latest-img img {
+        width: 100%;
+        height: 100vh;
+      }
+     /* New's section end here */
+     
+     /* What new section start here */
+     #what-new {
+        padding: 1% 5%;
+        overflow: hidden;
+      }
+      .new-last {
+        margin: 5% auto;
+      }
+      .new-firsr h2 {
+        font-size: 30px;
+        text-transform: uppercase;
+        padding-bottom: 15px;
+      }
+      .new-firsr img {
+        max-width: 100%;
+        height: auto;
+    }
+      .new-last h2 {
+        font-size: 30px;
+        text-transform: uppercase;
+     
+     }
+  .new-last p {
+    font-size: 26px;
+    color: #555;
+  }
+  .new-last .btn {
+    margin: 20px 0;
+    background: #eaaf47;
+    border: navajowhite;
+    border-radius: 3px;
+    color: black;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .4s;
+  }
+  .new-last .btn:hover{
+      transform: scale(1.2);
+  }
+ /* What new section end here */
+
+ /* Dance section start here */
+ #dance {
+	padding: 1% 5%;
+}
+.new-last1 h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 90px;
+}
+.new-last1 p {
+	margin: 12px 0;
+	font-size: 29px;
+	color: #777;
+}
+.new-last1 .btn {
+	margin: 20px 0;
+	background: #eaaf47;
+	border: navajowhite;
+	border-radius: 3px;
+	color: black;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .4s;
+	float: right;
+}
+.new-last1 .btn:hover{
+    transform: scale(1.2);
+}
+ /* Dance section end here */
+
+ /* college section start here */
+.new-last2 h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 90px;
+}
+.new-last2 p {
+	margin: 12px 0;
+	font-size: 27px;
+	color: #777;
+}
+.new-last2 .btn {
+	margin: 20px 0;
+	background: #eaaf47;
+	border: navajowhite;
+	border-radius: 3px;
+	color: black;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .4s;
+}
+.new-last2 .btn:hover{
+    transform: scale(1.2);
+}
+/* college section end here */
+
+/* follow section start here */
+#follow {
+	padding: 1% 5%;
+	text-align: center;
+  background: #eaaf47
+}
+.follow-us a img {
+	width: 40px;
+	height: 40px;
+	background: red;
+	border-radius: 50%;
+	border: 3px solid black;
+	margin: 20px 35px;
+	cursor: pointer;
+	transition: .4s;
+}
+.follow-us a img:hover{
+  transform: scale(1.2);
+}
+/* follow section end here */
+
+/* footer section start here */
+
+footer {
+  padding: 1% 5%;
+  background: gray;
+}
+.main-menu {
+  text-align: center;
+}
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.main-menu ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+.main-menu ul li a {
+  text-decoration: navajowhite;
+  color: black;
+  font-size: 16px;
+}
+.main-menu ul li a:hover{
+  transform: scale(1.2);
+  text-decoration: underline;
+  color: tomato;
+}
+/* Footer section end here */
+    .col-lg-1 {
+        width: 8.33%;
+    }
+
+    .col-lg-2 {
+        width: 16.66%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .col-lg-5 {
+        width: 41.66%;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-7 {
+        width: 58.33%;
+    }
+
+    .col-lg-8 {
+        width: 66.66%;
+    }
+
+    .col-lg-9 {
+        width: 75%;
+    }
+
+    .col-lg-10 {
+        width: 83.33%;
+    }
+
+    .col-lg-11 {
+        width: 91.66%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+}
